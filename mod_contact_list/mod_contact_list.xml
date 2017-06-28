@@ -207,6 +207,6 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="extension" priority="1" name="joomla.mod_contact_list">https://rawgit.com/dev-siberia/joomla.mod_contact_list/master/mod_contact_list/update.xml</server>
+		<server type="extension" priority="1" name="joomla.mod_contact_list">https://raw.githubusercontent.com/dev-siberia/joomla.mod_contact_list/master/mod_contact_list/update.xml</server>
 	</updateservers>
 </extension>

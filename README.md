@@ -16,6 +16,9 @@
 - [Joomla!](https://github.com/joomla/joomla-cms) 3+
 - [PHP](http://www.php.net/) >= 5.4
 
+## Download 
+
+- Install zip files Releases (https://github.com/dev-siberia/joomla.mod_contact_list/releases)
 
 ## License
 
