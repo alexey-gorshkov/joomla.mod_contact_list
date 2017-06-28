@@ -1,4 +1,4 @@
-![Contact list](https://cdn.rawgit.com/dev-siberia/joomla.mod_contact_list/master/logo.png)
+![Contact list](https://cdn.rawgit.com/dev-siberia/joomla.mod_contact_list/master/assets/logo.png)
 
 # joomla.mod_contact_list
 > Joomla module. Displays the list of contacts from the standard contact component.
