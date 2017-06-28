@@ -3,6 +3,8 @@
 # joomla.mod_contact_list
 > Joomla module. Displays the list of contacts from the standard contact component.
 
+![Gif](https://cdn.rawgit.com/dev-siberia/joomla.mod_contact_list/master/assets/slides_config.gif)
+
 ## Features
 
 - Filter by `categories`.
