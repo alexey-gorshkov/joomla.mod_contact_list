@@ -1,0 +1,31 @@
+/**
+ * @package     dev-siberia.ru
+ * @subpackage  mod_contact_list
+ *
+ * @copyright   Copyright (C) 2017 dev-siberia. All rights reserved.
+ * @license     License GNU General Public License version 3
+ */
+ 
+.contact-item {
+    background-color: #00324e;
+	padding: 5px;
+	border-bottom-right-radius: 10px;
+	margin-top: 5px;
+}
+.contact-position {
+    color: #dea829;
+    font-size: 15px;
+}
+.contact-fio {
+    color: #ffffff;
+}
+.contact-number {    
+    background: url(../images/call-icon.png) no-repeat;
+    height: 25px;
+}
+.contact-number span {
+	color: #ffffff;
+    padding-left: 28px;
+    font-size: 20px;
+    line-height: 1.2em;
+}

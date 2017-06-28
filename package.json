@@ -1,0 +1,24 @@
+{
+  "name": "joomla.mod_contact_list",
+  "version": "0.0.0",
+  "description": "Joomla module. Displays the list of contacts from the standard contact component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-siberia/joomla.mod_contact_list.git"
+  },
+  "author": "dev-siberia",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dev-siberia/joomla.mod_contact_list/issues"
+  },
+  "homepage": "https://github.com/dev-siberia/joomla.mod_contact_list#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-zip": "^4.0.0",
+    "xml2json": "^0.11.0"
+  }
+}
