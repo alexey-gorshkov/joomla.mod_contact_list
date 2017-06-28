@@ -9,7 +9,7 @@ var mod         = 'mod_contact_list',
 gulp.task ( 'create.installer', function () {
     return gulp
         .src ( './' + mod + '/**' )
-        .pipe ( zip ( mod + '__' + manifest.version[1] + '__installer.zip' ) )
+        .pipe ( zip ( mod + '_' + manifest.version[1] + '.zip' ) )
         .pipe ( gulp.dest ( './.installers' ) );
 } );
 

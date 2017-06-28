@@ -7,7 +7,7 @@
 	<license>License GNU General Public License version 3</license>
 	<authorEmail>dev@dev-siberia.ru</authorEmail>
 	<authorUrl>dev-siberia.ru</authorUrl>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>MOD_CONTACT_LIST_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_contact_list">mod_contact_list.php</filename>
@@ -207,6 +207,6 @@
 		</fields>
 	</config>
 	<updateservers>
-		<server type="extension" priority="1" name="joomla.mod_contact_list">https://raw.githubusercontent.com/dev-siberia/joomla.mod_contact_list/master/update.xml</server>
+		<server type="extension" priority="1" name="joomla.mod_contact_list">https://cdn.rawgit.com/dev-siberia/joomla.mod_contact_list/47e66cfa/mod_contact_list/update.xml</server>
 	</updateservers>
 </extension>
