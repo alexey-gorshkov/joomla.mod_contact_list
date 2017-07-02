@@ -18,4 +18,7 @@ ModContactListHelper::fetchHead( $params );
 $list            = ModContactListHelper::getList($params);
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8');
 
+// Instantiate global document object
+$doc = JFactory::getDocument();
+
 require JModuleHelper::getLayoutPath('mod_contact_list');

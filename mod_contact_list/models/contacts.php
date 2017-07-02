@@ -91,13 +91,13 @@ class ContactModelContacts extends JModelList
 		if ($forcedLanguage)
 		{
 			$this->context .= '.' . $forcedLanguage;
-		}
+		}		
 
 		$this->setState('filter.search', $this->getUserStateFromRequest($this->context . '.filter.search', 'filter_search', '', 'string'));
 		$this->setState('filter.published', $this->getUserStateFromRequest($this->context . '.filter.published', 'filter_published', '', 'string'));
 	
 		$this->setState('filter.category_id',
-						$this->getUserStateFromRequest($this->context . '.filter.category_id', 'filter_category_id', '', 'string')
+			$this->getUserStateFromRequest($this->context . '.filter.category_id', 'filter_category_id', '', 'string')
 		);
 		$this->setState('filter.access', $this->getUserStateFromRequest($this->context . '.filter.access', 'filter_access', '', 'cmd'));
 		$this->setState('filter.language', $this->getUserStateFromRequest($this->context . '.filter.language', 'filter_language', '', 'string'));
@@ -162,8 +162,8 @@ class ContactModelContacts extends JModelList
 				explode(', ', $this->getState(
 					'list.select',
 					'a.id, a.name, a.alias, a.checked_out, a.checked_out_time, a.catid, a.user_id' .
-					', a.published, a.access, a.created, a.created_by, a.ordering, a.featured, a.language' .
-					', a.publish_up, a.publish_down'
+					', a.access, a.created, a.created_by, a.ordering, a.featured, a.language' 
+					.', a.published, a.publish_up, a.publish_down' 
 					)
 				)
 			)
@@ -349,7 +349,7 @@ class ContactModelContacts extends JModelList
 		}
 
 		$query->order($db->escape($orderCol . ' ' . $orderDirn));
-
+		
 		return $query;
 	}
 }

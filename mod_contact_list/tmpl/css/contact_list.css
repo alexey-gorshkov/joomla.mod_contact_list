@@ -6,6 +6,9 @@
  * @license     License GNU General Public License version 3
  */
  
+.contact-block > button {
+    width: 100%;
+}
 .contact-item {
     background-color: #00324e;
 	padding: 5px;
@@ -28,4 +31,13 @@
     padding-left: 28px;
     font-size: 20px;
     line-height: 1.2em;
+}
+
+.contact-block button .icon {
+    display: inline-block;
+    width: 1.3em;
+    height: 1.3em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
